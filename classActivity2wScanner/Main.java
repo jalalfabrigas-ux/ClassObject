@@ -26,7 +26,8 @@ public class Main {
 
         
 
-        int tickets = 2;
+        System.out.println("How many numbers of Ticket: ");
+        int tickets = sc.nextInt();
 
         movie1.displayInfo();
         System.out.println("Total Cost ( "+tickets + "tickets ): "+ cinema.calculateCost(movie1,tickets));

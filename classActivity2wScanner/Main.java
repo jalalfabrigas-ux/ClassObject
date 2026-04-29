@@ -11,11 +11,10 @@ public class Main {
         System.out.println("Ticket Price of Movie 1 ");
         double ticketPrice1  = sc.nextInt();
         
-        
         sc.nextLine();
         System.out.println("Enter Title of Movie 2: ");
         String title2=sc.nextLine();
-        System.out.println("duration of Movie2 ");
+        System.out.print("duration of Movie2: ");
         int duration2  = sc.nextInt();
         System.out.println("Ticket Price of Movie 2 ");
         double ticketPrice2 = sc.nextInt();

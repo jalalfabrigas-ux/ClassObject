@@ -1,11 +1,18 @@
 package practice;
 
 public class Game {
-    String char1,char2,char3;
-    Game(String char1, String char2, String char3){
-        this.char1=char1;
-        this.char2=char2;
-        this.char3=char3;
+    String name;
+    String weapon;
+    String attacktype;
+    double damage;
+    Game(String name, String weapon, String attacktype, double damage){
+        this.name=name;
+        this.weapon=weapon;
+        this.attacktype=attacktype;
+        this.damage=damage;
+        
+    } void infoCharacter(){
+        System.out.println("CHARACTER : " + name +"\nWeapon Type:  " + weapon + " \n Damage Type: "+ attacktype +"\n Damage In/Output: "  + damage );
 
     }
 }

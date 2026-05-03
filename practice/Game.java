@@ -14,5 +14,5 @@ public class Game {
     } void infoCharacter(){
         System.out.println("CHARACTER : " + name +"\nWeapon Type:  " + weapon + " \n Damage Type: "+ attacktype +"\n Damage In/Output: "  + damage );
 
-    }
+    } 
 }

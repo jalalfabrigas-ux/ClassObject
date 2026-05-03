@@ -13,6 +13,10 @@ public class Main {
         char3.infoCharacter();
         System.out.println("<===THIRD CHARACTER===>");
         
+        int fussion = 0;
+        String fussionName = 0;
+        String build=0;
+        
 
     }
     
